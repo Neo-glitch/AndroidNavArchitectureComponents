@@ -1,6 +1,9 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+// plugin needed for safe args feature of nav arch
+apply plugin: 'androidx.navigation.safeargs'
+
 
 android {
     compileSdkVersion 29
