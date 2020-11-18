@@ -15,4 +15,9 @@
         android:name="com.neo.androidnavarchitecturecomponents.OrdersFragment"
         android:label="fragment_orders"
         tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.neo.androidnavarchitecturecomponents.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
 </navigation>

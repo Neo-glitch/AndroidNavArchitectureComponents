@@ -25,6 +25,7 @@ class WelcomeFragment : Fragment() {
             val email = view.editTextEmail.text.toString()
             val password = view.editTextPassword.text.toString()
             if(email.isNotEmpty() && password.isNotEmpty()){
+                // can also passed a bundle alongside the action to go to next fragment
                 findNavController().navigate(R.id.action_welcomeFragment_to_homeFragment)
             }
         }
